@@ -1,0 +1,75 @@
+@font-face {
+	font-family: Calluna;
+	src: url('../font/Calluna-Regular.otf');
+}
+
+@font-face {
+	font-family: "Calluna Sans";
+	src: url('../font/CallunaSansRegular.otf');
+}
+
+@font-face {
+	font-family: "Museo";
+	src: url('../font/Museo_Slab_500.otf');
+}
+
+@font-face {
+	font-family: "Museo Sans";
+	src: url('../font/MuseoSans_500.otf');
+}
+
+body {
+	background-color: #223865;
+	font-family: "Calluna Sans";
+	display: block;
+}
+
+#header {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.89);
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	font-family: "Museo";
+}
+
+.header-image {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	background-image: url(../img/isay-header.png);
+	z-index: 1;
+	width: 52px;
+	height: 30px;
+}
+
+#content {
+	position: relative;
+	text-align: center;
+	background-color: #fdfdfd;
+	top: 42px;
+	width: 800px;
+	height: 100%;
+	margin: 0px auto;
+	padding: 10px 20px;
+	border: 2px solid #212121;
+	border-top-width: 0;
+}
+
+.coming-soon-splash {
+	margin: inherit;
+	background-image: url(../img/isay-coming-soon-splash.jpg);
+	width: 750px;
+	height: 500px;
+	display: block;
+}
+
+.footer {
+	text-align: center;
+	color: #404040;
+	font: x-small "Calluna Sans";
+	height: 20px;
+	margin-top: 40px;
+}
